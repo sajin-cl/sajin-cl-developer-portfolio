@@ -80,7 +80,7 @@ export default function Projects() {
             {PROJECTS_DATA.map((project, index) => (
               <div
                 key={index}
-                className="group carousel-card flex flex-col w-full md:w-1/2 shrink-0 overflow-hidden bg-stone-950 outline outline-gray-900 hover:outline-lime-900 "
+                className="group carousel-card flex flex-col w-full md:w-1/2 shrink-0 overflow-hidden bg-stone-950 outline outline-gray-800 hover:outline-lime-900 "
               >
 
                 {/* Project Banner */}
@@ -100,7 +100,7 @@ export default function Projects() {
 
 
                 {/* Project Info */}
-                <div className="p-6 flex flex-col grow">
+                <div className="p-6 flex flex-col grow bg-[#0b0b01] border-t border-gray-800">
                   <h2 className="text-xs font-mono text-start font-semibold text-lime-300 mb-2 leading-snug uppercase">
                     <span
                       className="inline-block w-2 h-2 bg-lime-400 rounded-full animate-pulse shadow-[0_0_8px_#84cc16] [animation-duration:0.7s] mr-2"
