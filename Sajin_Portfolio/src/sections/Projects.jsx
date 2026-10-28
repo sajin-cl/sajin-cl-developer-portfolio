@@ -100,7 +100,7 @@ export default function Projects() {
 
 
                 {/* Project Info */}
-                <div className="p-6 flex flex-col grow bg-[#0b0b01] border-t border-gray-800">
+                <div className="p-6 flex flex-col grow bg-[#0b0b01] border-t border-gray-900">
                   <h2 className="text-xs font-mono text-start font-semibold text-lime-300 mb-2 leading-snug uppercase">
                     <span
                       className="inline-block w-2 h-2 bg-lime-400 rounded-full animate-pulse shadow-[0_0_8px_#84cc16] [animation-duration:0.7s] mr-2"
