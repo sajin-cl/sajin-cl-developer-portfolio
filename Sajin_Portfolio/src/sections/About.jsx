@@ -64,13 +64,27 @@ const About = () => {
             viewport={{ once: true }}
           >
             HELLO, I'M <span className="text-lime-300">SAJIN CL</span>, A
-            <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span> BUILDING SCALABLE FULL-STACK APPLICATIONS WITH REACT.JS, NEXT.JS, NODE.JS, EXPRESS, AND MONGODB. I FOCUS ON RESPONSIVE UI, SECURE BACKEND SYSTEMS, <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>.I ALSO CREATE PROFESSIONAL <span className="text-lime-300">POSTER DESIGNS</span> FOR DIGITAL MARKETING CAMPAIGNS AND BUSINESS PROMOTIONS.
+            <span className="text-lime-300"> FREELANCE WEB DEVELOPER</span>{" "}
+            BUILDING SCALABLE FULL-STACK APPLICATIONS WITH REACT.JS, NEXT.JS,
+            NODE.JS, EXPRESS, AND MONGODB. I SPECIALIZE IN RESPONSIVE UI,
+            SECURE BACKEND SYSTEMS,{" "}
+            <span className="text-lime-300">SEO & SPEED OPTIMIZATION</span>,
+            CONTACT FORM, GOOGLE MAPS, AND {" "}
+             <span className="text-lime-300">
+               PROFESSIONAL EMAIL INTEGRATION. 
+             </span>
+            
+             {" "} I ALSO CREATE PROFESSIONAL{" "}
+            <span className="text-lime-300">POSTER DESIGNS</span>{" "}
+            FOR DIGITAL MARKETING CAMPAIGNS AND BUSINESS PROMOTIONS.
           </motion.p>
+
+
         </div>
       </div>
 
-      <AboutAI/>
-      <AboutHighlights/>
+      <AboutAI />
+      <AboutHighlights />
 
     </section>
   );
