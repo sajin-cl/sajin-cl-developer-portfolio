@@ -117,8 +117,8 @@ export const PROFICIENCY_DATA = [
   { name: 'Node.js / Express.js', percentage: 80 },
   { name: 'MongoDB / Mongoose ODM', percentage: 85 },
   { name: 'Tailwind CSS', percentage: 83 },
-  { name: 'SEO Optimization', percentage: 53 },
-  { name: 'TypeScript', percentage: 22 },
+  { name: 'SEO Optimization', percentage: 63 },
+  { name: 'TypeScript', percentage: 15 },
 ];
 
 export const SERVICE_INTEGRATIONS_DATA = [
